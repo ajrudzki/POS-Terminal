@@ -1,0 +1,13 @@
+C:\Users\arudzki\source\repos\Labs\Week 6 Project POS Terminal\POSTerminal\POSTerminal\bin\Debug\netcoreapp3.1\POSTerminal.exe
+C:\Users\arudzki\source\repos\Labs\Week 6 Project POS Terminal\POSTerminal\POSTerminal\bin\Debug\netcoreapp3.1\POSTerminal.deps.json
+C:\Users\arudzki\source\repos\Labs\Week 6 Project POS Terminal\POSTerminal\POSTerminal\bin\Debug\netcoreapp3.1\POSTerminal.runtimeconfig.json
+C:\Users\arudzki\source\repos\Labs\Week 6 Project POS Terminal\POSTerminal\POSTerminal\bin\Debug\netcoreapp3.1\POSTerminal.runtimeconfig.dev.json
+C:\Users\arudzki\source\repos\Labs\Week 6 Project POS Terminal\POSTerminal\POSTerminal\bin\Debug\netcoreapp3.1\POSTerminal.dll
+C:\Users\arudzki\source\repos\Labs\Week 6 Project POS Terminal\POSTerminal\POSTerminal\bin\Debug\netcoreapp3.1\POSTerminal.pdb
+C:\Users\arudzki\source\repos\Labs\Week 6 Project POS Terminal\POSTerminal\POSTerminal\obj\Debug\netcoreapp3.1\POSTerminal.csprojAssemblyReference.cache
+C:\Users\arudzki\source\repos\Labs\Week 6 Project POS Terminal\POSTerminal\POSTerminal\obj\Debug\netcoreapp3.1\POSTerminal.AssemblyInfoInputs.cache
+C:\Users\arudzki\source\repos\Labs\Week 6 Project POS Terminal\POSTerminal\POSTerminal\obj\Debug\netcoreapp3.1\POSTerminal.AssemblyInfo.cs
+C:\Users\arudzki\source\repos\Labs\Week 6 Project POS Terminal\POSTerminal\POSTerminal\obj\Debug\netcoreapp3.1\POSTerminal.csproj.CoreCompileInputs.cache
+C:\Users\arudzki\source\repos\Labs\Week 6 Project POS Terminal\POSTerminal\POSTerminal\obj\Debug\netcoreapp3.1\POSTerminal.dll
+C:\Users\arudzki\source\repos\Labs\Week 6 Project POS Terminal\POSTerminal\POSTerminal\obj\Debug\netcoreapp3.1\POSTerminal.pdb
+C:\Users\arudzki\source\repos\Labs\Week 6 Project POS Terminal\POSTerminal\POSTerminal\obj\Debug\netcoreapp3.1\POSTerminal.genruntimeconfig.cache
