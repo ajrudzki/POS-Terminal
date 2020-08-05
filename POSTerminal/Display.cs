@@ -35,6 +35,7 @@ namespace POSTerminal
                 Console.WriteLine($"{itemcount}:  {other[i].Name}: {other[i].Description}      {other[i].Price}");
                 itemcount++;
             }
+            Console.WriteLine($"{itemcount}:  Exit");
             menuItems.Clear();
             foreach (Product item in generic)
             {
@@ -48,8 +49,14 @@ namespace POSTerminal
             return menuItems;
         }
 
-
-
-
+        public static void CustomerItemsTotal(List<Product> order)
+        {
+            decimal total = 0m;
+            foreach (Product item in order)
+            {
+                total = total + (item.Price * item.Quantity);
+            }
+            Console.WriteLine($"Your current total is: {total}");
+        }
     }
 }

@@ -9,16 +9,25 @@ namespace POSTerminal
         {
             SeedMenu();
             List<Product> customerOrder = new List<Product>();
+            Category Menu = UserInput.GetMenu();
 
-            List<Product> menutime = Product.GetMenu(Category.breakfast);
-            menutime = Display.DisplayMenu(menutime);
-            Display.CustomerItems(customerOrder);
-            int choice = UserInput.GetOrderItem(menutime.Count);
-            customerOrder.Add(menutime[choice]);
-
-
-            Console.WriteLine(menutime.Count);
+            while (true)
+            {
+                Console.Clear();
+                List<Product> menutime = Product.GetMenu(Menu);
+                menutime = Display.DisplayMenu(menutime);
+                Display.CustomerItemsTotal(customerOrder);
+                int choice = UserInput.GetOrderItem(menutime.Count) - 1;
+                if(choice == menutime.Count)
+                {
+                    break;
+                }
+                int qty = UserInput.HowMany(menutime[choice]);
+                customerOrder = AddItem(menutime[choice], qty, customerOrder);
+            }
+            
         }
+
         public static void SeedMenu()
         {
             Product pancakes = new Product(Category.breakfast, "pancakes", "four fluffy flap jacks served with butter and maple syrup", 4.99m);
@@ -27,6 +36,7 @@ namespace POSTerminal
 
             Product sscombo = new Product(Category.lunch, "soup and sandwich", "your choice of soup with a club sandwich", 4.50m);
             Product caesar = new Product(Category.lunch, "caesar salad", "served with romaine, croutons, parmesan cheese and ceasar dressing", 5.79m);
+            Product ctenders = new Product(Category.lunch, "chicken tenders", "moist white meat chicken served with your choice of dipping sauce", 2.79m);
 
             Product sandt = new Product(Category.dinner, "surf and turf", "fresh caught lobster, 4oz ny strip", 14.99m);
             Product ribeye = new Product(Category.dinner, "ribeye", "8oz bone in ribeye", 12.99m);
@@ -37,6 +47,17 @@ namespace POSTerminal
 
             Drink coke = new Drink(Category.generic, "coke", Size.large, "soft drink", 1.00m);
             Drink water = new Drink(Category.generic, "water", Size.large, "natural spring water", 0.00m);
+        }
+
+        public static List<Product> AddItem(Product Item, int Amount, List<Product> customerOrder)
+        {
+            if (Amount == 0)
+            {
+                return customerOrder;
+            }
+            customerOrder.Add(Item);
+            customerOrder[customerOrder.Count - 1].Quantity = Amount;
+            return customerOrder;
         }
 
     }

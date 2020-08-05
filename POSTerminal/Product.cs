@@ -12,12 +12,14 @@ namespace POSTerminal
         generic,
         test
     }
+
     public enum Size
     {
         small,
         medium,
         large
     }
+
     public class Product
     {
         //private string _name;
@@ -30,8 +32,8 @@ namespace POSTerminal
         public string Description { get; set; }
 
         //private decimal _price;
-
         public decimal Price { get; set; }
+        public int Quantity { get; set; }
 
         public static List<Product> allProducts = new List<Product>();
 
@@ -42,6 +44,7 @@ namespace POSTerminal
             Description = aDescription;
             Price = aPrice;
             allProducts.Add(this);
+            Quantity = 0;
         }
 
         public static List<Product> GetMenu(Category Menu)
@@ -58,6 +61,7 @@ namespace POSTerminal
             return menuItems;
         }
     }
+
     public class Drink : Product
     {
         private Size _size;
