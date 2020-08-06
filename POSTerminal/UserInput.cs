@@ -58,5 +58,17 @@ namespace POSTerminal
 
             }
         }
+
+        public static decimal TenderedAmount()
+        {
+            decimal tendered= 0m;
+            bool isValid = false;
+            while (!isValid)
+            {
+                Console.Write("Amount Tendered: ");
+                isValid = decimal.TryParse(Console.ReadLine(), out tendered);
+            }
+            return tendered;
+        }
     }
 }
