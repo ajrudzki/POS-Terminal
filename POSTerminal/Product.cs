@@ -6,11 +6,11 @@ namespace POSTerminal
 {
     public enum Category
     {
-        breakfast,
-        lunch,
-        dinner,
-        generic,
-        test
+        Breakfast,
+        Lunch,
+        Dinner,
+        Generic,
+        Test
     }
 
     public enum Size
@@ -53,7 +53,7 @@ namespace POSTerminal
 
             foreach (Product item in allProducts)
             {
-                if (item.Category == Menu || item.Category == Category.generic)
+                if (item.Category == Menu || item.Category == Category.Generic)
                 {
                     menuItems.Add(item);
                 }
