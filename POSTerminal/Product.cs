@@ -6,11 +6,11 @@ namespace POSTerminal
 {
     public enum Category
     {
-        breakfast,
-        lunch,
-        dinner,
-        generic,
-        test
+        Breakfast,
+        Lunch,
+        Dinner,
+        Generic,
+        Test
     }
 
     public enum Size
@@ -22,8 +22,21 @@ namespace POSTerminal
 
     public class Product
     {
-        //private string _name;
-        public string Name { get; set; }
+        // one private variable made and then made a public getter and setter
+        // The lab says to do this way however Jeff taught us a better way
+        // other properties are done in the way Jeff taught us.
+        private string _name;
+        public string Name 
+        {
+            get 
+            {
+                return _name;
+            }
+            set
+            {
+                _name = value;
+            } 
+        }
 
         //private Category _category;
         public Category Category { get; set; }
@@ -53,12 +66,17 @@ namespace POSTerminal
 
             foreach (Product item in allProducts)
             {
-                if (item.Category == Menu || item.Category == Category.generic)
+                if (item.Category == Menu || item.Category == Category.Generic)
                 {
                     menuItems.Add(item);
                 }
             }
             return menuItems;
+        }
+
+        public override string ToString()
+        {
+            return _name;
         }
     }
 
@@ -70,5 +88,4 @@ namespace POSTerminal
             _size = aSize;
         }
     }
-
 }
