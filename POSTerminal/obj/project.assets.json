@@ -8,25 +8,24 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\arudzki\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\DHeizer\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arudzki\\source\\repos\\Labs\\Week 6 Project POS Terminal\\POSTerminal\\POSTerminal\\POSTerminal.csproj",
+      "projectUniqueName": "C:\\DevBuild4\\GrandCircus\\Week6POSTerminal\\POS-Terminal\\POSTerminal\\POSTerminal.csproj",
       "projectName": "POSTerminal",
-      "projectPath": "C:\\Users\\arudzki\\source\\repos\\Labs\\Week 6 Project POS Terminal\\POSTerminal\\POSTerminal\\POSTerminal.csproj",
-      "packagesPath": "C:\\Users\\arudzki\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arudzki\\source\\repos\\Labs\\Week 6 Project POS Terminal\\POSTerminal\\POSTerminal\\obj\\",
+      "projectPath": "C:\\DevBuild4\\GrandCircus\\Week6POSTerminal\\POS-Terminal\\POSTerminal\\POSTerminal.csproj",
+      "packagesPath": "C:\\Users\\DHeizer\\.nuget\\packages\\",
+      "outputPath": "C:\\DevBuild4\\GrandCircus\\Week6POSTerminal\\POS-Terminal\\POSTerminal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\arudzki\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\DHeizer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

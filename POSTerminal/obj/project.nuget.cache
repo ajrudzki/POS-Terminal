@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hnDW86TZW3MvoCrrvtGNgEDWVgpWHzcRsYnsRQ4zK45nq3PjYy/+VP5LFLNJXx2CAjBdRSjyuEPLGMz4p19asQ==",
+  "dgSpecHash": "Ia0eV+wJ88UwXY85FgJyNf89aqJCfsXVQbdNZxNdTxu/j144rY0pQDNg4sITZKErRy2n3ulYPS09+RFN7OzPZw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\arudzki\\source\\repos\\Labs\\Week 6 Project POS Terminal\\POSTerminal\\POSTerminal\\POSTerminal.csproj",
+  "projectFilePath": "C:\\DevBuild4\\GrandCircus\\Week6POSTerminal\\POS-Terminal\\POSTerminal\\POSTerminal.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -11,3 +11,16 @@ C:\Users\arudzki\source\repos\Labs\Week 6 Project POS Terminal\POSTerminal\POSTe
 C:\Users\arudzki\source\repos\Labs\Week 6 Project POS Terminal\POSTerminal\POSTerminal\obj\Debug\netcoreapp3.1\POSTerminal.dll
 C:\Users\arudzki\source\repos\Labs\Week 6 Project POS Terminal\POSTerminal\POSTerminal\obj\Debug\netcoreapp3.1\POSTerminal.pdb
 C:\Users\arudzki\source\repos\Labs\Week 6 Project POS Terminal\POSTerminal\POSTerminal\obj\Debug\netcoreapp3.1\POSTerminal.genruntimeconfig.cache
+C:\DevBuild4\GrandCircus\Week6POSTerminal\POS-Terminal\POSTerminal\bin\Debug\netcoreapp3.1\POSTerminal.exe
+C:\DevBuild4\GrandCircus\Week6POSTerminal\POS-Terminal\POSTerminal\bin\Debug\netcoreapp3.1\POSTerminal.deps.json
+C:\DevBuild4\GrandCircus\Week6POSTerminal\POS-Terminal\POSTerminal\bin\Debug\netcoreapp3.1\POSTerminal.runtimeconfig.json
+C:\DevBuild4\GrandCircus\Week6POSTerminal\POS-Terminal\POSTerminal\bin\Debug\netcoreapp3.1\POSTerminal.runtimeconfig.dev.json
+C:\DevBuild4\GrandCircus\Week6POSTerminal\POS-Terminal\POSTerminal\bin\Debug\netcoreapp3.1\POSTerminal.dll
+C:\DevBuild4\GrandCircus\Week6POSTerminal\POS-Terminal\POSTerminal\bin\Debug\netcoreapp3.1\POSTerminal.pdb
+C:\DevBuild4\GrandCircus\Week6POSTerminal\POS-Terminal\POSTerminal\obj\Debug\netcoreapp3.1\POSTerminal.csprojAssemblyReference.cache
+C:\DevBuild4\GrandCircus\Week6POSTerminal\POS-Terminal\POSTerminal\obj\Debug\netcoreapp3.1\POSTerminal.AssemblyInfoInputs.cache
+C:\DevBuild4\GrandCircus\Week6POSTerminal\POS-Terminal\POSTerminal\obj\Debug\netcoreapp3.1\POSTerminal.AssemblyInfo.cs
+C:\DevBuild4\GrandCircus\Week6POSTerminal\POS-Terminal\POSTerminal\obj\Debug\netcoreapp3.1\POSTerminal.csproj.CoreCompileInputs.cache
+C:\DevBuild4\GrandCircus\Week6POSTerminal\POS-Terminal\POSTerminal\obj\Debug\netcoreapp3.1\POSTerminal.dll
+C:\DevBuild4\GrandCircus\Week6POSTerminal\POS-Terminal\POSTerminal\obj\Debug\netcoreapp3.1\POSTerminal.pdb
+C:\DevBuild4\GrandCircus\Week6POSTerminal\POS-Terminal\POSTerminal\obj\Debug\netcoreapp3.1\POSTerminal.genruntimeconfig.cache
