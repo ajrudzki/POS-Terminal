@@ -48,7 +48,7 @@ namespace POSTerminal
         public decimal Price { get; set; }
         public int Quantity { get; set; }
 
-        public static List<Product> allProducts = new List<Product>();
+        //public static List<Product> allProducts = new List<Product>();
 
         public Product(Category aCategory, string aName,  string aDescription, decimal aPrice)
         {
@@ -56,11 +56,11 @@ namespace POSTerminal
             Category = aCategory;
             Description = aDescription;
             Price = aPrice;
-            allProducts.Add(this);
+            //allProducts.Add(this);
             Quantity = 0;
         }
 
-        public static List<Product> GetMenu(Category Menu)
+        public static List<Product> GetMenu(Category Menu, List<Product> allProducts)
         {
             List<Product> menuItems = new List<Product>();
 

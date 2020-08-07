@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace POSTerminal
 {
     public class TerminalFlow
     {
-        public static void TerminalStart()
+        public static void TerminalStart(List<Product> allProducts)
         {
             List<Product> customerOrder = new List<Product>();
             decimal subTotal;
@@ -14,12 +13,12 @@ namespace POSTerminal
             decimal tendered;
             decimal change;
             const double TAX = .6;
-            Category Menu = UserInput.GetMenu();
+            Category menuCategory = UserInput.GetMenu();
 
             while (true)
             {
                 Console.Clear();
-                List<Product> menutime = Product.GetMenu(Menu);
+                List<Product> menutime = Product.GetMenu(menuCategory, allProducts);
                 menutime = Display.DisplayMenu(menutime);
                 subTotal = CalculateSubTotal(customerOrder);
                 Display.DisplayTotal("Your current total is: ", subTotal);
