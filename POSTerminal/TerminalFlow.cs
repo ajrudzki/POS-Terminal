@@ -58,9 +58,5 @@ namespace POSTerminal
             }
             return total;
         }
-
-
-
-
     }
 }

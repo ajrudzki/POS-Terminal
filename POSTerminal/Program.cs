@@ -48,7 +48,5 @@ namespace POSTerminal
             Drink water = new Drink(Category.Generic, "Water", Size.large, "Natural spring water", 0.00m);
             Drink coffee = new Drink(Category.Generic, "Coffee", Size.medium, "French roast blend, Clove and bittersweet chocolate", 1.49m);
         }
-
-
     }
 }
